@@ -47,7 +47,7 @@ cat /opt/spicetify-cli/Themes/SpicetifyDefault/color.ini | awk "
 " >/opt/spicetify-cli/Themes/SpicetifyDefault/file
 
 mv -f /opt/spicetify-cli/Themes/SpicetifyDefault/file /opt/spicetify-cli/Themes/SpicetifyDefault/color.ini
-spicetify apply &
+# spicetify apply &
 
 pkill swaync
 swaync &
